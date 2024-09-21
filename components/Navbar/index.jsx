@@ -34,6 +34,11 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="mb-6 mx-0 sm:mb-0 sm:mx-3">
+                        <a href="#certificates" className="text-lg text-white font-semibold transition-colors duration-150 hover:text-teal-400" onClick={toggleMenu}>
+                            Certificates
+                        </a>
+                    </li>
+                    <li className="mb-6 mx-0 sm:mb-0 sm:mx-3">
                         <a href="#contact" className="text-lg text-white font-semibold transition-colors duration-150 hover:text-teal-400" onClick={toggleMenu}>
                             Contact
                         </a>

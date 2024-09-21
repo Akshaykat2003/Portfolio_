@@ -8,6 +8,7 @@ import Works from '../components/Works';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Skills from '../components/Skills';
+import Certificates from '../components/Certificates';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Experiences />
         <Skills/>
         <Works />
+        <Certificates/>
         <Contact />
         <Footer />
       </div>
